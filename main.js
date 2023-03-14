@@ -16,7 +16,8 @@ const createWindow = () => {
   });
 
   // et chargement de l'index.html de l'application.
-  mainWindow.loadFile("index.html");
+  // mainWindow.loadFile("index.html");
+  mainWindow.loadURL('http://127.0.0.1:3000');
 
   // Ouvrir les outils de développement.
   // mainWindow.webContents.openDevTools()
